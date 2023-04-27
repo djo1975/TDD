@@ -39,7 +39,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary> Client </summary>
   <ul>
     <li><a href="">Ruby</a></li>
   </ul>

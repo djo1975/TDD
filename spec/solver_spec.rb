@@ -17,6 +17,12 @@ RSpec.describe Solver do
         expect { Solver.new.factorial(-1) }.to raise_error(ArgumentError)
       end
     end
+
+    context 'when given 0' do
+      it 'returns 1' do
+        expect(Solver.new.factorial(0)).to eq(1)
+      end
+    end
   end
 
   describe '#reverse' do
